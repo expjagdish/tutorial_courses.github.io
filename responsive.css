@@ -1,0 +1,66 @@
+ /* small device media qurey for mobile */
+@media only screen and (max-width:770px){
+
+    #header{
+        background: none;
+    }
+    .header-text{
+        margin: 80px 0px;
+    }
+    .header-text h1{
+        margin-top: 25px;
+    }
+    .header-text p{
+        margin-top: 10px;
+    }
+    .col-left-about{
+        flex-basis: 100%;
+    }
+    .col-left-about img{
+        width: 100%;
+    }
+    .col-right-about{
+        flex-basis: 100%;
+        margin: 0px 50px;
+    }
+    .features-box{
+        flex-basis: 100%;
+        margin: 10px 30px;
+    }
+    .features-box img{
+        width: 100%;
+    }
+    .col-left-courses{
+        flex-basis: 100%;
+    }
+    .col-left-courses img{
+        width: 100%;
+    }
+    .col-right-courses{
+        flex-basis: 100%;
+        margin: 0px 50px;
+    }
+    .col-left-contact{
+        flex-basis: 100%;
+    }
+    .col-left-contact img{
+        width: 100% ;
+    }
+    .col-right-contact{
+        flex-basis: 100%;
+    
+    }
+    .col-left-footer, .col-right-footer{
+        flex-basis: 100%;
+        margin-right: 100px;
+    }
+    .title-footer{
+        margin-bottom: 30px;
+        margin-right: 50px;
+    }
+
+    .col-right-footer{
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+}

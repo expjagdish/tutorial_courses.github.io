@@ -1,0 +1,355 @@
+/* custome css and small device media query for mobile */
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+/* start header section */
+#header{
+    background-image: url(image/b2.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 50% 80%;
+    background-position: right;
+}
+.container{
+    margin: 0px 100px;
+}
+#logo{
+    width: 80px;
+    margin-top: 50px;
+}
+.header-text{
+    margin: 100px 0px;
+    max-width: 700px;
+}
+h1{
+    margin-top: 50px;
+    color: #6c63ff;
+    font-size: 30px;
+}
+.header-text p{
+    margin-top: 20px;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+    background: #231abe;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn:hover{
+    background: none;
+    color: #000;
+    border: 1px solid #6c63ff;
+    transition: 0.5s;
+}
+.line{
+    line-height: 20px;
+    display: inline-block;
+}
+.line-1{
+    width: 12px;
+    height: 12px;
+    background: #6c63ff;
+}
+.line-2{
+    width: 80px;
+    height: 1px;
+    background: #6c63ff;
+}
+.line-3{
+    width: 120px;
+    height: 1px;
+    background: #6c63ff;
+}
+/* start menubar  */
+#menu{
+    width: 50px;
+    position: fixed;
+    top: 10px;
+    right: 100px;
+    cursor: pointer;
+    z-index: 4;
+}
+#sidebar{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right:-300px;
+    padding-top:50px;
+    background-color: #6c63ff;
+    transition: 0.5s;
+}
+#sidebar li{
+    list-style: none;
+}
+#sidebar li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px 40px;
+    display: block;
+    margin: 20px 30px;
+    font-weight: 600;
+}
+#sidebar li a:hover{
+    background-color: #9691d1;
+    transition: 0.5s;
+}
+
+
+/* start about section */
+#about{
+    padding: 100px 0px;
+}
+.row-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col-left-about{
+    flex-basis: 50%;
+}
+.col-right-about{
+    flex-basis: 50%;
+    text-align: right;
+    margin-right: 100px;
+    max-width: 600px;
+}
+.col-left-about img{
+    width: 100%;
+}
+.col-right-about h1{
+    margin-bottom: 20px;
+}
+.col-right-about p{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    padding-top: 10px;
+}
+.col-right-about h2{
+    font-size: 30px;
+    font-style: oblique;
+    margin-top: 35px;
+}
+
+
+/* start features section */
+#features{
+    padding: 50px 0px;
+    background-color: #e8e5e5;
+}
+.container-features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.features-box{
+    flex-basis: 25%;
+    text-align: center;
+}
+.features-box img{
+    width: 100%;
+}
+.features-box h3{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.features-box p{
+    font-size: 18px;
+}
+#middle-line{
+    text-align: center;
+    margin-top: 45px;
+}
+.line{
+    margin-right: 25px;
+}
+
+
+/* start courses section */
+#courses{
+    padding: 100px 0px;
+}
+.row-courses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col-left-courses{
+    flex-basis: 50%;
+}
+.col-left-courses img{
+    width: 100%;
+}
+.col-right-courses{
+    flex-basis: 50%;
+    text-align: right;
+    margin-right: 100px;
+    max-width: 600px;
+    
+}
+.col-right-courses p{
+    font-size: 18px;
+    margin: 15px 0px;
+    text-align: justify;
+}
+
+
+/* start contact setion */
+#contact{
+    padding: 50px 0px;
+}
+.row-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col-left-contact{
+    flex-basis: 50%;
+}
+.col-left-contact img{
+    width: 100% ;
+}
+.col-right-contact{
+    flex-basis: 50%;
+
+}
+.col-right-contact{
+    text-align: center;
+}
+form{
+    margin-top: 25px;
+}
+form input{
+    width: 60%;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+textarea{
+    width: 60%;
+    padding: 12px;
+    margin-bottom: 12px;
+
+}
+/* start footer section */
+#footer{
+    padding: 100px 0px;
+    background-color: #e4d6d6;
+}
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col-left-footer, .col-right-footer{
+    flex-basis: 50%;
+}
+.link-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.title-footer h2{
+    color: #6c63ff;
+    margin-bottom: 12px;
+}
+.title-footer p{
+    line-height: 30px;
+    cursor: pointer;
+}
+.info-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copyright{
+    flex-basis: 40%;
+    text-align: right;
+    font-size: 20px;
+}
+.logo-footer{flex-basis: 40%;}
+.logo-footer img{
+    width: 100px;
+}
+
+
+/* Small device media query for mobile */
+@media only screen and (max-width:770px){
+
+    #header{
+        background: none;
+    }
+    .header-text{
+        margin: 80px 0px;
+    }
+    .header-text h1{
+        margin-top: 25px;
+    }
+    .header-text p{
+        margin-top: 10px;
+    }
+    .col-left-about{
+        flex-basis: 100%;
+    }
+    .col-left-about img{
+        width: 100%;
+    }
+    .col-right-about{
+        flex-basis: 100%;
+        margin: 0px 50px;
+    }
+    .features-box{
+        flex-basis: 100%;
+        margin: 10px 30px;
+    }
+    .features-box img{
+        width: 100%;
+    }
+    .col-left-courses{
+        flex-basis: 100%;
+    }
+    .col-left-courses img{
+        width: 100%;
+    }
+    .col-right-courses{
+        flex-basis: 100%;
+        margin: 0px 50px;
+    }
+    .col-left-contact{
+        flex-basis: 100%;
+    }
+    .col-left-contact img{
+        width: 100% ;
+    }
+    .col-right-contact{
+        flex-basis: 100%;
+    
+    }
+    .col-left-footer, .col-right-footer{
+        flex-basis: 100%;
+        margin-right: 100px;
+    }
+    .title-footer{
+        margin-bottom: 30px;
+        margin-right: 50px;
+       
+    }
+    .col-right-footer{
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+}
